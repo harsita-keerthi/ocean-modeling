@@ -1,5 +1,9 @@
 # Data files
 SST_20150101.nc
+EVEL_2015_12.nc
+NVEL_2015_12.nc
+THETA_2015_12.nc
+WVELSTAR_2015_12.nc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
