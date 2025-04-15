@@ -36,10 +36,10 @@
 # Gridding parameters
  &PARM04
  usingSphericalPolarGrid=.TRUE.,
- delX=240*0.083333,
- delY=360*0.0625,
- xgOrigin=-135,
- ygOrigin=29,
+ delX=160*0.25,
+ delY=280*0.25,
+ xgOrigin=55,
+ ygOrigin=-20,
  delR = 10.00, 10.00, 10.00, 10.00, 10.00, 10.00, 10.00, 10.01,
         10.03, 10.11, 10.32, 10.80, 11.76, 13.42, 16.04, 19.82, 24.85,
         31.10, 38.42, 46.50, 55.00, 63.50, 71.58, 78.90, 85.15, 90.18,
@@ -50,7 +50,7 @@
 
 # Input datasets
  &PARM05
- bathyFile = 'CA_bathymetry.bin',
+ bathyFile = 'India_bathymetry.bin',
  hydrogThetaFile = 'THETA_IC.bin',
  hydrogSaltFile = 'SALT_IC.bin',
  uVelInitFile = 'UVEL_IC.bin',
