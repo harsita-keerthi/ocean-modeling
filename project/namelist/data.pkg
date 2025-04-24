@@ -2,5 +2,7 @@
  &PACKAGES
  useCAL         = .TRUE.,
  useEXF         = .TRUE.,
- useOBCS=.TRUE.
+ useOBCS	= .TRUE.,
+ useKPP		= .TRUE.,
+ useDIAGNOSTICS = .TRUE.,
  &
