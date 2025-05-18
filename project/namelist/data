@@ -25,8 +25,8 @@
 
 # Time stepping parameters
  &PARM03
- niter0=0,
- deltaT=300.,
+ niter0=96192,
+ deltaT=150.,
  nTimeSteps = 105120,
  pChkptFreq=2592000.,
  dumpInitAndLast=.FALSE.,
